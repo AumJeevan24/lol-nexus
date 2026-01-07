@@ -1,0 +1,170 @@
+[
+    {
+        "input": "If Corki's win rate soared after Patch 14.1, what buffs did he get?",
+        "actual_output": null,
+        "expected_output": "Corki received buffs in Patch 14.1 to compensate for the power loss due to Trinity Force's changes, aiming to increase his viability, especially for players who frequently pick marksmen.",
+        "retrieval_context": null,
+        "context": [
+            "Patch 14.1 | General | Champion Buffs: Corki is one marksman that lost some power due to Trinity Force’s changes. And while it’s still his best item, we’d like to get him back up to snuff and get him an ace machine. While doing this, we’d like to close the gap between Bot and Mid as well, in order to open him up to players who pick marksmen more frequently."
+        ],
+        "name": null,
+        "comments": null,
+        "source_file": null,
+        "tools_called": null,
+        "expected_tools": null,
+        "additional_metadata": {
+            "evolutions": [
+                "Hypothetical"
+            ],
+            "synthetic_input_quality": 0.8
+        },
+        "custom_column_key_values": null
+    },
+    {
+        "input": "How did Trinity Force changes impact Corki?",
+        "actual_output": null,
+        "expected_output": "Trinity Force changes caused Corki to lose some power, prompting buffs to get him back to a competitive state.",
+        "retrieval_context": null,
+        "context": [
+            "Patch 14.1 | General | Champion Buffs: Corki is one marksman that lost some power due to Trinity Force’s changes. And while it’s still his best item, we’d like to get him back up to snuff and get him an ace machine. While doing this, we’d like to close the gap between Bot and Mid as well, in order to open him up to players who pick marksmen more frequently."
+        ],
+        "name": null,
+        "comments": null,
+        "source_file": null,
+        "tools_called": null,
+        "expected_tools": null,
+        "additional_metadata": {
+            "evolutions": [
+                "Multi-context"
+            ],
+            "synthetic_input_quality": 0.8
+        },
+        "custom_column_key_values": null
+    },
+    {
+        "input": "Analyze Patch 14.1's AD buff from 59 to 61.",
+        "actual_output": null,
+        "expected_output": "Patch 14.1 increases base Attack Damage from 59 to 61, a 3.39% buff.",
+        "retrieval_context": null,
+        "context": [
+            "Patch 14.1 | General | Champion Buffs: Base Attack Damage: 59 ⇒ 61"
+        ],
+        "name": null,
+        "comments": null,
+        "source_file": null,
+        "tools_called": null,
+        "expected_tools": null,
+        "additional_metadata": {
+            "evolutions": [
+                "In-Breadth"
+            ],
+            "synthetic_input_quality": 0.8
+        },
+        "custom_column_key_values": null
+    },
+    {
+        "input": "AD tweaks in Patch 14.1 increase base damage.",
+        "actual_output": null,
+        "expected_output": "Yes, by 2 points, from 59 to 61.",
+        "retrieval_context": null,
+        "context": [
+            "Patch 14.1 | General | Champion Buffs: Base Attack Damage: 59 ⇒ 61"
+        ],
+        "name": null,
+        "comments": null,
+        "source_file": null,
+        "tools_called": null,
+        "expected_tools": null,
+        "additional_metadata": {
+            "evolutions": [
+                "In-Breadth"
+            ],
+            "synthetic_input_quality": 0.6
+        },
+        "custom_column_key_values": null
+    },
+    {
+        "input": "What if AD increased by 50?",
+        "actual_output": null,
+        "expected_output": "If AD increased by 50, R damage would increase by 12.5/25/37.5 (50% of 25/50/75% of 50 AD) to 92.5/140/187.5 (+12% AP).",
+        "retrieval_context": null,
+        "context": [
+            "Patch 14.1 | General | Champion Buffs: R Damage: 80/115/150 (+15/45/75% AD) (+12% AP) ⇒ 80/115/150(+25/50/75% AD)(+12% AP)"
+        ],
+        "name": null,
+        "comments": null,
+        "source_file": null,
+        "tools_called": null,
+        "expected_tools": null,
+        "additional_metadata": {
+            "evolutions": [
+                "Hypothetical"
+            ],
+            "synthetic_input_quality": 0.8
+        },
+        "custom_column_key_values": null
+    },
+    {
+        "input": "What are R damage changes in Patch 14.1?",
+        "actual_output": null,
+        "expected_output": "R damage in Patch 14.1 is now 80/115/150 (+25/50/75% AD) (+12% AP), increased from (+15/45/75% AD).",
+        "retrieval_context": null,
+        "context": [
+            "Patch 14.1 | General | Champion Buffs: R Damage: 80/115/150 (+15/45/75% AD) (+12% AP) ⇒ 80/115/150(+25/50/75% AD)(+12% AP)"
+        ],
+        "name": null,
+        "comments": null,
+        "source_file": null,
+        "tools_called": null,
+        "expected_tools": null,
+        "additional_metadata": {
+            "evolutions": [
+                "Concretizing"
+            ],
+            "synthetic_input_quality": 0.6
+        },
+        "custom_column_key_values": null
+    },
+    {
+        "input": "How do Ezreal's W and E combos benefit from Patch 14.1 updates?",
+        "actual_output": null,
+        "expected_output": "Ezreal's W and E combos benefit from Patch 14.1 updates by allowing him to be more aggressive in the laning phase.",
+        "retrieval_context": null,
+        "context": [
+            "Patch 14.1 | General | Champion Buffs: Trinity Force lost a lot of power for ranged users last patch but seems to be in a good spot for melee users. As such, we’re not changing Ezreal’s core item in Trinity Force but he still needs more power from somewhere. These changes should add some interest to his laning phase by letting him be more aggressive with W and E combos."
+        ],
+        "name": null,
+        "comments": null,
+        "source_file": null,
+        "tools_called": null,
+        "expected_tools": null,
+        "additional_metadata": {
+            "evolutions": [
+                "Reasoning"
+            ],
+            "synthetic_input_quality": 0.8
+        },
+        "custom_column_key_values": null
+    },
+    {
+        "input": "How do W and E combos boost Ezreal's aggression?",
+        "actual_output": null,
+        "expected_output": "The changes in Patch 14.1 allow Ezreal to be more aggressive with W and E combos, implying that these abilities have been buffed to deal more damage or have improved functionality, enabling Ezreal to play more aggressively during the laning phase.",
+        "retrieval_context": null,
+        "context": [
+            "Patch 14.1 | General | Champion Buffs: Trinity Force lost a lot of power for ranged users last patch but seems to be in a good spot for melee users. As such, we’re not changing Ezreal’s core item in Trinity Force but he still needs more power from somewhere. These changes should add some interest to his laning phase by letting him be more aggressive with W and E combos."
+        ],
+        "name": null,
+        "comments": null,
+        "source_file": null,
+        "tools_called": null,
+        "expected_tools": null,
+        "additional_metadata": {
+            "evolutions": [
+                "Reasoning"
+            ],
+            "synthetic_input_quality": 1.0
+        },
+        "custom_column_key_values": null
+    }
+]
