@@ -1,5 +1,7 @@
 # rag_core/test_config.py
 import os
+import time
+import asyncio
 from langchain_groq import ChatGroq
 from deepeval.models.base_model import DeepEvalBaseLLM
 
@@ -15,9 +17,13 @@ class GroqJudge(DeepEvalBaseLLM):
         return self.model
 
     def generate(self, prompt: str) -> str:
+        # Throttle: Sleep 4 seconds to stay under 30 RPM (Requests Per Minute)
+        time.sleep(4) 
         return self.model.invoke(prompt).content
 
     async def a_generate(self, prompt: str) -> str:
+        # Async Throttle: Sleep 4 seconds non-blocking
+        await asyncio.sleep(4)
         return (await self.model.ainvoke(prompt)).content
 
     def get_model_name(self):
